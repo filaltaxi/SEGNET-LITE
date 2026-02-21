@@ -1,9 +1,4 @@
-Here is a **professional, clean, GitHub-ready README.md** for your project.
-I’ve structured it properly for research + hardware + deployment visibility.
 
-You can **copy-paste directly into README.md**
-
----
 
 # 🧠 SegNet-Lite: Hardware-Accelerated Prostate Lesion Segmentation
 
