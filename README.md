@@ -2,7 +2,11 @@
 
 # 🧠 SegNet-Lite: Hardware-Accelerated Prostate Lesion Segmentation
 
-🚀 Efficient, privacy-preserving, embedded AI system for **clinically significant prostate cancer (csPCa)** detection from multi-parametric MRI.
+🚀 Efficient, privacy-preserving, embedded AI prototype for **clinically significant prostate cancer (csPCa)** detection from multi-parametric MRI.
+
+> **New to this?** Read [SegNet-Lite Explained in Plain Language](EXPLAINED.md): how it works, what the numbers mean, and its current limits, with no jargon.
+>
+> **Status:** research prototype. It has not been clinically validated and is not a medical device.
 
 Developed by **Team GenHacks**
 B.Tech Electronics & Communication Engineering – RSET
@@ -48,8 +52,8 @@ Unlike conventional cloud-based AI systems, this solution runs entirely on an **
 * ✔ Cascaded ROI-focused segmentation
 * ✔ INT8 quantized model (75% memory reduction)
 * ✔ Fully on-device inference
-* ✔ 93%+ precision in lesion detection
-* ✔ Reduced unnecessary biopsies
+* ✔ 93%+ precision in lesion detection (prototype result, measured on training data)
+* ✔ Aims to reduce unnecessary biopsies
 
 ---
 
@@ -206,7 +210,7 @@ SEGNET-LITE/
 * INT8 quantization
 * FPGA deployment
 * Embedded Intelligent Node
-* Clinically deployable
+* Working prototype (not yet clinically validated)
 
 ---
 
@@ -215,7 +219,7 @@ SEGNET-LITE/
 * No cloud processing
 * No data transmission
 * 100% on-device inference
-* Hospital-compliant design
+* Designed to keep patient data inside the hospital
 
 ---
 
@@ -247,9 +251,9 @@ SEGNET-LITE/
 # 🏆 Final Outcome
 
 ✔ Solved tiny lesion imbalance problem
-✔ Achieved high clinical precision
+✔ Reached about 93–95% lesion precision in prototype testing
 ✔ Successfully deployed medical AI on FPGA
-✔ Enabled real-time embedded diagnostic appliance
+✔ Showed that a real-time embedded diagnostic aid is feasible
 
 ---
 
@@ -277,11 +281,11 @@ python pipeline.py
 
 # 📢 Conclusion
 
-SegNet-Lite transforms a theoretical medical AI model into a:
+SegNet-Lite turns a theoretical medical AI model into a:
 
 * Practical
 * Secure
 * Low-cost
 * Real-time
-* Clinically viable embedded diagnostic system
+* Promising prototype of an embedded diagnostic aid
 
