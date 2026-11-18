@@ -6,6 +6,8 @@
 
 > **New to this?** Read [SegNet-Lite Explained in Plain Language](EXPLAINED.md): how it works, what the numbers mean, and its current limits, with no jargon.
 >
+> **Want every detail?** [The Complete Beginner's Guide](BEGINNERS_GUIDE.md) covers every part, how the model works inside, how it was trained and shrunk for the chip, and how to set up and run the ZCU104 board step by step.
+>
 > **Status:** research prototype. It has not been clinically validated and is not a medical device.
 
 Developed by **Team GenHacks**
